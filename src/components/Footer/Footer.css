@@ -4,8 +4,8 @@
   color: white;
   text-align: center;
   width: 100vw;
-  overflow-x: hidden;
   margin-top: auto;
+  overflow: hidden;
 }
 
 .footer-content {

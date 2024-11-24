@@ -4,9 +4,10 @@ export default function Home() {
       <div>
         <h1>Welcome to My Portfolio</h1>
         <p>
-          I am a full stack developer passionate about creating beautiful and
-          functional websites.
+          I&apos;m a full stack developer passionate about creating beautiful
+          and functional websites.
         </p>
+        <button>Learn More</button>
       </div>
     </section>
   );

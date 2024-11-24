@@ -13,27 +13,19 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  height: 1vh;
+  height: 1rem;
   padding: 0;
 }
 
 .navbar ul li {
-  margin: 0 15px;
+  margin: 0 1rem;
 }
 
 .navbar ul li a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 1.1rem;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.home,
-.about,
-.projects,
-.contact {
-  padding: 20px;
-  text-align: center;
 }

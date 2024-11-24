@@ -11,13 +11,12 @@ export default function Footer() {
           Reserved.
         </p>
         <div className="footer-links">
-          <a href="/about">About</a>
-          <a href="/contact">Contact</a>
-          <Link to="https://github.com/andymartinez1">
-            <FaGithub /> <p> &nbsp; Github</p>
-          </Link>
+          <p>Contact me:</p>
           <Link to="https://www.linkedin.com/in/andymartinez2/">
             <FaLinkedin /> <p> &nbsp; LinkedIn</p>
+          </Link>
+          <Link to="https://github.com/andymartinez1">
+            <FaGithub /> <p> &nbsp; Github</p>
           </Link>
         </div>
       </div>

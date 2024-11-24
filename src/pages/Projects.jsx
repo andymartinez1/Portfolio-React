@@ -1,7 +1,7 @@
 export default function Projects() {
   return (
     <section className="projects">
-      <h2>My Projects</h2>
+      <h1>My Projects</h1>
       <div className="project-list">
         <div className="project-card">
           <h3 className="project-title">Project 1</h3>

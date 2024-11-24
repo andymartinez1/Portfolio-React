@@ -15,12 +15,20 @@ body {
   align-items: center;
 }
 
+.home,
+.about,
+.projects,
+.contact {
+  text-align: center;
+}
+
 .main {
   min-height: 90vh;
 }
 
 h1,
-h2 {
+h2,
+h3 {
   color: #fff;
 }
 
@@ -30,6 +38,10 @@ h1 {
 
 h2 {
   font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
 }
 
 .error-heading {
@@ -43,6 +55,74 @@ p {
 
 .content {
   flex: 1;
+}
+
+.home div p {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.about p {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.resume {
+  /* text-align: center; */
+  margin-bottom: 3rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume a {
+  text-decoration: none;
+}
+
+.resume-button {
+  color: #fff;
+  background-color: transparent;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.resume-button p {
+  padding: 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.core-competencies {
+  text-align: center;
+}
+
+.core-competencies-title {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.core-competencies-list {
+  margin: 0 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.core-competencies-item {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.3rem;
 }
 
 .project-list {
@@ -79,38 +159,4 @@ p {
 
 .project-link {
   text-decoration: none;
-}
-
-label {
-  color: #fff;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  margin: 0 auto;
-}
-
-form input,
-form textarea {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-form button {
-  background-color: #333;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-form button:hover {
-  background-color: #444;
 }
