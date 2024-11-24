@@ -32,6 +32,10 @@ h2 {
   font-size: 2rem;
 }
 
+.error-heading {
+  text-align: center;
+}
+
 p {
   color: #fff;
   font-size: 1rem;

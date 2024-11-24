@@ -7,11 +7,7 @@ export default function Navbar() {
     <nav className="navbar">
       <ul>
         <li>
-          <img
-            src="/public/img/Logo-White-T.png"
-            alt="Logo"
-            className="navbar-logo"
-          />
+          <img src="img/Logo-White-T.png" alt="Logo" className="navbar-logo" />
         </li>
         <li>
           <Link to="/">
