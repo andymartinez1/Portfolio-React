@@ -63,7 +63,7 @@ export default function About() {
         </ul>
       </section>
       <div className="resume">
-        <Link to="/public/files/Andrew-Martinez-Resume.pdf">
+        <Link to="/files/Andrew-Martinez-Resume.pdf">
           <button className="resume-button">
             <p>View my full resume &nbsp;</p>
             <FaChevronRight />

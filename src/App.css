@@ -23,6 +23,7 @@ body {
 }
 
 .main {
+  margin: auto;
   min-height: 90vh;
 }
 
@@ -57,23 +58,25 @@ p {
   flex: 1;
 }
 
-.home div p {
+.home p {
   text-align: center;
+  margin: 1rem;
 }
 
 .about {
   text-align: center;
   max-width: 1200px;
   margin: auto;
+  margin-bottom: 3rem;
 }
 
 .about p {
+  margin: 0 1rem;
   padding: 0.5rem;
   font-size: 1.3rem;
 }
 
 .resume {
-  /* text-align: center; */
   margin-bottom: 3rem;
   background-color: transparent;
   display: flex;
@@ -106,16 +109,15 @@ p {
 }
 
 .core-competencies-title {
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  margin: 1rem 0 0.5rem;
 }
 
 .core-competencies-list {
-  margin: 0 15px;
+  margin: 0 1rem 2rem;
   list-style: none;
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
   padding: 1rem;
 }
 
@@ -129,6 +131,8 @@ p {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto 3rem;
+  max-width: 1500px;
 }
 
 .project-card {
