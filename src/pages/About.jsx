@@ -1,5 +1,5 @@
 import { FaChevronRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import Resume from "../assets/files/Andrew-Martinez-Resume.pdf";
 
 export default function About() {
   return (
@@ -63,12 +63,12 @@ export default function About() {
         </ul>
       </section>
       <div className="resume">
-        <Link to="/files/Andrew-Martinez-Resume.pdf">
+        <a href={Resume}>
           <button className="resume-button">
             <p>View my full resume &nbsp;</p>
             <FaChevronRight />
           </button>
-        </Link>
+        </a>
       </div>
     </>
   );
