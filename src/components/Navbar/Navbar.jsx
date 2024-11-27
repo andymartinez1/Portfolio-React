@@ -14,25 +14,26 @@ export default function Navbar() {
       </div>
 
       <input type="checkbox" className="toggle-menu" />
+      {/* <Hamburger /> */}
       <div className="hamburger"></div>
 
       <ul className="navbar-list">
-        <li className="navbar-list-item-1">
+        <li className="navbar-list-item">
           <Link to="/">
             <FaHome /> <p> &nbsp; Home</p>
           </Link>
         </li>
-        <li className="navbar-list-item-2">
+        <li className="navbar-list-item">
           <Link to="/about">
             <FaUser /> <p> &nbsp; About</p>
           </Link>
         </li>
-        <li className="navbar-list-item-3">
+        <li className="navbar-list-item">
           <Link to="/education">
             <FaGraduationCap /> <p> &nbsp; Education</p>
           </Link>
         </li>
-        <li className="navbar-list-item-4">
+        <li className="navbar-list-item">
           <Link to="/projects">
             <SiOpenproject /> <p> &nbsp; Projects</p>
           </Link>
