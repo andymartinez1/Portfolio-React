@@ -4,17 +4,19 @@
   color: white;
   text-align: center;
   width: 100vw;
+
   margin-top: auto;
   overflow: hidden;
 }
 
 .footer-content {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
+  padding: 0 15px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2vh;
+  height: 1.5rem;
 }
 
 .footer-links {
@@ -28,10 +30,13 @@
   margin: 0 15px;
   text-decoration: none;
   display: flex;
+  flex: none;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
 }
 
 .footer-links a:hover {
   text-decoration: underline;
+  /* box-shadow: 0 4px 1px #61dafb inset; */
 }

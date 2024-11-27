@@ -6,10 +6,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
-        <p>
-          &copy; {new Date().getFullYear()} Andrew Martinez. All Rights
-          Reserved.
-        </p>
+        <p>Handcrafted by Andrew Martinez &copy; {new Date().getFullYear()}</p>
         <div className="footer-links">
           <p>Contact me:</p>
           <Link to="https://www.linkedin.com/in/andymartinez2/">
