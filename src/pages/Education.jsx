@@ -9,9 +9,17 @@ export default function Education() {
       <div className="education-list">
         <div className="education-card-1">
           <div className="education-card ">
-            <h3 className="education-name">Master&apos;s Degree</h3>
+            <h3 className="education-name">
+              Master&apos;s Degree, Computer Science
+            </h3>
+            <h5 className="education-school">Fitchburg State University</h5>
             <p className="education-description">
-              A description of my degree...
+              Minor: Data Science
+              <br />
+              <strong>GPA: 3.71</strong>
+              <br />
+              July 2022 – December 2023
+              <br />
             </p>
           </div>
           <div className="education-img">
@@ -24,18 +32,42 @@ export default function Education() {
             <img src={FSU} alt="FSU Logo" />
           </div>
           <div className="education-card">
-            <h3 className="education-name">Bachelor&apos;s Degree</h3>
+            <h3 className="education-name">
+              Bachelor&apos;s Degree, Computer Information Systems
+            </h3>
+            <h5 className="education-school">Fitchburg State University</h5>
             <p className="education-description">
-              A description of my degree...
+              Minor: Computer Science
+              <br />
+              <strong>GPA: 3.6</strong>
+              <br />
+              <strong>Magna Cum Laude</strong>
+              <br />
+              Dean&apos;s List: 2018, 2019, 2020
+              <br />
+              June 2018 – December 2020
+              <br />
             </p>
           </div>
         </div>
 
         <div className="education-card-3">
           <div className="education-card">
-            <h3 className="education-name">Associate&apos;s Degree</h3>
+            <h3 className="education-name">
+              Associate&apos;s Degree, Computer Information Systems
+            </h3>
+            <h5 className="education-school">
+              Mount Wachusett Community College
+            </h5>
             <p className="education-description">
-              A description of my degree...
+              <strong>GPA: 3.61</strong>
+              <br />
+              <strong>High Honors</strong>
+              <br />
+              Dean&apos;s List: 2017, 2018
+              <br />
+              January 2017 – May 2018
+              <br />
             </p>
           </div>
           <div className="education-img">
