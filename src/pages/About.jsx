@@ -1,6 +1,5 @@
 import { FaChevronRight } from "react-icons/fa";
 import Resume from "../assets/files/Andrew-Martinez-Resume.pdf";
-import Headshot from "../assets/img/Headshot1.png";
 
 export default function About() {
   return (
@@ -26,9 +25,9 @@ export default function About() {
               a variety of situations.
             </p>
           </div>
-          <div className="about-img">
+          {/* <div className="about-img">
             <img src={Headshot} alt="" />
-          </div>
+          </div> */}
         </div>
       </section>
 

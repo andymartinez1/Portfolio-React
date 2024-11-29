@@ -12,7 +12,7 @@ export default function Education() {
             <h3 className="education-name">
               Master&apos;s Degree, Computer Science
             </h3>
-            <h5 className="education-school">Fitchburg State University</h5>
+            <h4 className="education-school">Fitchburg State University</h4>
             <p className="education-description">
               Minor: Data Science
               <br />
@@ -35,7 +35,7 @@ export default function Education() {
             <h3 className="education-name">
               Bachelor&apos;s Degree, Computer Information Systems
             </h3>
-            <h5 className="education-school">Fitchburg State University</h5>
+            <h4 className="education-school">Fitchburg State University</h4>
             <p className="education-description">
               Minor: Computer Science
               <br />
@@ -56,9 +56,9 @@ export default function Education() {
             <h3 className="education-name">
               Associate&apos;s Degree, Computer Information Systems
             </h3>
-            <h5 className="education-school">
+            <h4 className="education-school">
               Mount Wachusett Community College
-            </h5>
+            </h4>
             <p className="education-description">
               <strong>GPA: 3.61</strong>
               <br />
