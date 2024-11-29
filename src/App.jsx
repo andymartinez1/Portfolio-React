@@ -10,7 +10,7 @@ import Projects from "./pages/Projects";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/portfolio/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Navbar />
       <main className="main">
         <div className="content">

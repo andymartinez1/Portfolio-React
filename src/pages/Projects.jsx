@@ -2,6 +2,7 @@ export default function Projects() {
   return (
     <section className="projects">
       <h1 className="project-title">My Projects</h1>
+
       <div className="project-list">
         <div className="project-card">
           <h3 className="project-name">Project 1</h3>
@@ -12,6 +13,7 @@ export default function Projects() {
             See More
           </a>
         </div>
+
         <div className="project-card">
           <h3 className="project-name">Project 2</h3>
           <p className="project-description">
@@ -21,6 +23,7 @@ export default function Projects() {
             See More
           </a>
         </div>
+
         <div className="project-card">
           <h3 className="project-name">Project 3</h3>
           <p className="project-description">
@@ -30,6 +33,7 @@ export default function Projects() {
             See More
           </a>
         </div>
+
         <div className="project-card">
           <h3 className="project-name">Project 4</h3>
           <p className="project-description">
@@ -39,6 +43,7 @@ export default function Projects() {
             See More
           </a>
         </div>
+
         <div className="project-card">
           <h3 className="project-name">Project 5</h3>
           <p className="project-description">
@@ -48,6 +53,7 @@ export default function Projects() {
             See More
           </a>
         </div>
+
         <div className="project-card">
           <h3 className="project-name">Project 6</h3>
           <p className="project-description">
