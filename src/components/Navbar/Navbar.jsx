@@ -4,7 +4,7 @@ import { FaHome, FaUser } from "react-icons/fa";
 import { FaGraduationCap } from "react-icons/fa6";
 import { SiOpenproject } from "react-icons/si";
 import { NavLink } from "react-router-dom";
-import Logo from "../../assets/img/White-Logo-T.png";
+import Logo from "../../assets/img/Logos/White-Logo-T.png";
 import "./Navbar.css";
 
 export default function Navbar() {

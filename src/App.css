@@ -8,7 +8,7 @@ body {
   font-family: Inter, sans-serif;
   margin: 0;
   padding: 0;
-  background: url(/src/assets/img/Site-Background-3.png);
+  background: url(/src/assets/img//Background-Images/Site-Background.png);
   background-repeat: no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
@@ -301,52 +301,68 @@ p {
 /* PROJECTS */
 
 .project-container {
-  display: flex;
-  width: 90vw;
+  background-color: rgb(0, 0, 0, 0.1);
   margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: auto;
+  width: 90vw;
+  border-radius: 15px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  border: 0.1px solid #363535;
+  flex-wrap: wrap;
 }
 
-.project-panel {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 80vh;
-  border-radius: 25px;
+.project-description {
+  width: 70%;
+}
+
+.project-features {
+  width: 30%;
+}
+
+.feature-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.feature-list-item {
+  list-style: none;
+  font-size: 1rem;
   color: #fff;
-  cursor: pointer;
-  flex: 0.5;
-  margin: 4px;
-  position: relative;
-  transition: flex 0.7s ease-in;
 }
 
-.project-panel h3 {
-  font-size: 24px;
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  margin: 0;
-  opacity: 0;
-}
-
-.project-panel.active {
-  flex: 5;
-}
-
-.project-panel.active h3 {
-  opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
-}
+/* MISC */
 
 .top-button {
   cursor: pointer;
   position: absolute;
-  right: 0.5rem;
-  margin-top: -3.5rem;
-  padding: 1rem;
+  right: 1rem;
+  margin-top: -4rem;
+  padding: 0.5rem;
   border: 0.5 solid;
   border-radius: 100%;
   background-color: transparent;
   color: #fff;
+  text-align: center;
+  font-size: 2rem;
   z-index: 0;
+  transition: all 0.3s ease;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  & svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -1,3 +1,5 @@
+import { FaAngleUp } from "react-icons/fa";
+
 export default function ScrollToTopButton() {
   const ScrollToTop = () => {
     window.scrollTo(0, 0);
@@ -5,7 +7,7 @@ export default function ScrollToTopButton() {
 
   return (
     <button className="top-button" onClick={ScrollToTop}>
-      Top
+      <FaAngleUp />
     </button>
   );
 }

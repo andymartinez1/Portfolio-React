@@ -1,5 +1,5 @@
-import FSU from "../assets/img/FSU-Logo.jpeg";
-import MWCC from "../assets/img/MWCC-Logo.jpeg";
+import FSU from "../assets/img/Logos/FSU-Logo.jpeg";
+import MWCC from "../assets/img/Logos/MWCC-Logo.jpeg";
 
 export default function Education() {
   return (
