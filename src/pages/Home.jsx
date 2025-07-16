@@ -1,16 +1,11 @@
 export default function Home() {
   return (
     <section className="home">
-      <div className="home-page">
-        <div className="home-page-text">
-          <h1 className="home-header">Welcome to My Portfolio</h1>
-          <p className="home-description">
-            I&apos;m a full stack developer passionate about creating beautiful
-            and functional websites.
-          </p>
-          <button>Learn More</button>
-        </div>
-      </div>
+      <h1 className="home-heading">Hi, I&apos;m Andrew Martinez</h1>
+      <p className="home-description">
+        A Full-Stack Developer with a strong foundation in microservices, API
+        development and database management
+      </p>
     </section>
   );
 }

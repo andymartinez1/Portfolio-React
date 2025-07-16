@@ -42,6 +42,10 @@
   list-style-type: none;
 }
 
+.navbar-list-item img {
+  height: 3rem;
+}
+
 .navbar-list-item a {
   color: white;
   text-decoration: none;
@@ -50,6 +54,13 @@
   justify-content: center;
   align-items: center;
   transition: all 0.3s;
+}
+
+.navbar-list-item a.active {
+  p {
+    color: #f7924a;
+    transform: scale(1.1);
+  }
 }
 
 .navbar-list-item a p {

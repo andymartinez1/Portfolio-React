@@ -1,8 +1,5 @@
 import { Menu, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { FaHome, FaUser } from "react-icons/fa";
-import { FaGraduationCap } from "react-icons/fa6";
-import { SiOpenproject } from "react-icons/si";
 import { NavLink } from "react-router-dom";
 import Logo from "../../assets/img/Logos/White-Logo-T.png";
 import "./Navbar.css";
@@ -40,22 +37,26 @@ export default function Navbar() {
         <ul className="desktop-links">
           <li className="navbar-list-item">
             <NavLink to="/">
-              <FaHome /> <p> &nbsp; Home</p>
+              <img src="src/assets/img/Icons/Home.svg" alt="home" />
+              <p> &nbsp; Home</p>
             </NavLink>
           </li>
           <li className="navbar-list-item">
             <NavLink to="/about">
-              <FaUser /> <p> &nbsp; About</p>
+              <img src="src/assets/img/Icons/About.svg" alt="about" />{" "}
+              <p> &nbsp; About</p>
             </NavLink>
           </li>
           <li className="navbar-list-item">
             <NavLink to="/education">
-              <FaGraduationCap /> <p> &nbsp; Education</p>
+              <img src="src/assets/img/Icons/Education.svg" alt="education" />{" "}
+              <p> &nbsp; Education</p>
             </NavLink>
           </li>
           <li className="navbar-list-item">
             <NavLink to="/projects">
-              <SiOpenproject /> <p> &nbsp; Projects</p>
+              <img src="src/assets/img/Icons/Projects.svg" alt="projects" />{" "}
+              <p> &nbsp; Projects</p>
             </NavLink>
           </li>
         </ul>
@@ -71,22 +72,26 @@ export default function Navbar() {
         <ul className="mobile-links" ref={ref}>
           <li className="navbar-list-item">
             <NavLink to="/" onClick={() => setIsOpen(false)}>
-              <FaHome /> <p> &nbsp; Home</p>
+              <img src="src/assets/img/Icons/Home.svg" alt="home" />{" "}
+              <p> &nbsp; Home</p>
             </NavLink>
           </li>
           <li className="navbar-list-item">
             <NavLink to="/about" onClick={() => setIsOpen(false)}>
-              <FaUser /> <p> &nbsp; About</p>
+              <img src="src/assets/img/Icons/About.svg" alt="about" />{" "}
+              <p> &nbsp; About</p>
             </NavLink>
           </li>
           <li className="navbar-list-item">
             <NavLink to="/education" onClick={() => setIsOpen(false)}>
-              <FaGraduationCap /> <p> &nbsp; Education</p>
+              <img src="src/assets/img/Icons/Education.svg" alt="education" />{" "}
+              <p> &nbsp; Education</p>
             </NavLink>
           </li>
           <li className="navbar-list-item">
             <NavLink to="/projects" onClick={() => setIsOpen(false)}>
-              <SiOpenproject /> <p> &nbsp; Projects</p>
+              <img src="src/assets/img/Icons/Projects.svg" alt="projects" />{" "}
+              <p> &nbsp; Projects</p>
             </NavLink>
           </li>
         </ul>

@@ -11,7 +11,7 @@ body {
   background: url(/src/assets/img//Background-Images/Site-Background.png);
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   overflow-x: hidden;
   display: flex;
   flex-direction: column;
@@ -28,8 +28,9 @@ body {
 }
 
 .main {
+  display: flex;
   margin: auto;
-  min-height: 90vh;
+  min-height: 81vh;
   max-width: 90%;
 }
 
@@ -61,34 +62,66 @@ p {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: 1;
 }
 
 /* HOME */
 
-.home p {
-  text-align: center;
-  margin: 1rem;
+.home {
+  align-items: center;
+  max-width: 50%;
+  margin-bottom: 5rem;
 }
 
-.home-page {
-  margin: 2rem auto 0;
+.home-heading {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #f7924a;
+}
+
+.home-description {
+  font-size: 1.2rem;
 }
 
 /* ABOUT */
 
 .about {
   text-align: center;
-  max-width: 1200px;
   margin: auto;
   margin-bottom: 3rem;
 }
 
 .about-section {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.about-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+}
+
+.about-item {
+  padding: 0 2rem;
+  width: 40%;
+
+  & img {
+    height: 6.5rem;
+    margin-top: 1rem;
+  }
+
+  & h2 {
+    margin: 0.5rem 0;
+  }
 }
 
 .about p {
@@ -136,9 +169,19 @@ p {
 }
 
 .core-competencies-item {
+  display: flex;
+  align-items: center;
   color: #fff;
-  font-size: 1.2rem;
   padding: 0.3rem;
+
+  & img {
+    height: 3rem;
+  }
+
+  & p {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+  }
 }
 
 .developer-icons {
@@ -210,7 +253,7 @@ p {
 }
 
 .education-card {
-  background-color: rgb(0, 0, 0, 0.1);
+  background-color: rgb(51, 51, 51, 0.6);
   margin: 3rem 2rem;
   text-align: center;
   height: auto;
